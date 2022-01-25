@@ -1,0 +1,100 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --action-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --hero-color: #2f303a;
+}
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* белый текст + фон #ffffff*/
+/* вторичный цвет фона #F5F4FA  */
+/* серый цвет почты и телефона в хувере rgba(255, 255, 255, 0.6); */
+/* цвет акцент ( действия) #2196F3 */
+/* Цвет героя #2F303A */
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: #000000;
+}
+
+/*Site-nav */
+.site-nav-link {
+  color: var(--primary-text-color);
+}
+
+/* Header contacts */
+.header-contacts-info {
+  color: var(--secondary-text-color);
+}
+
+.site-nav-link:hover,
+.header-contacts-info:hover,
+.site-nav-link:focus,
+.header-contacts-info:focus {
+  color: var(--action-color);
+}
+
+.site-nav-link.current {
+  color: var(--action-color);
+}
+.web {
+  color: var(--action-color);
+}
+
+/* Hero */
+
+.hero,
+.hero-button {
+  color: var(--primary-bg-color);
+  background-color: var(--hero-color);
+}
+
+.hero-button {
+  background-color: var(--action-color);
+}
+
+/* Advantages */
+.advantages-description {
+  color: var(--secondary-text-color);
+}
+
+/* Team */
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+.team-pos {
+  color: var(--secondary-text-color);
+}
+
+.team-box {
+  background-color: var(--primary-bg-color);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--hero-color);
+}
+
+.footer-logo {
+  color: var(--primary-bg-color);
+}
+
+.adress {
+  color: var(--primary-bg-color);
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
