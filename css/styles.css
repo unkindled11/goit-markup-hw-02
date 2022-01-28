@@ -17,24 +17,47 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
+
+  font-family: Roboto, sans-serif;
 }
 
 .list {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* Logo */
 .logo {
   color: #000000;
+
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 /*Site-nav */
 .site-nav-link {
   color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 
 /* Header contacts */
 .header-contacts-info {
   color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 
 .site-nav-link:hover,
@@ -53,30 +76,98 @@ body {
 
 /* Hero */
 
-.hero,
-.hero-button {
+.hero {
   color: var(--primary-bg-color);
   background-color: var(--hero-color);
 }
 
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .hero-button {
+  color: var(--primary-bg-color);
   background-color: var(--action-color);
+  font-weight: 700;
+
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+
+  cursor: pointer;
 }
 
 /* Advantages */
-.advantages-description {
-  color: var(--secondary-text-color);
+
+.advantages-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-/* Team */
+.advantages-description {
+  color: var(--secondary-text-color);
+
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* Business,Team , Projects */
+
+.team-title,
+.business-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 
 .team {
   background-color: var(--secondary-bg-color);
 }
 
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .team-pos,
 .project-description {
   color: var(--secondary-text-color);
+}
+
+.team-pos {
+  font-size: 16px;
+  line-height: 1.18px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.project-name {
+  color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 .team-box,
@@ -90,22 +181,47 @@ body {
   background-color: var(--hero-color);
 }
 
-.footer-logo {
+.footer .logo {
   color: var(--primary-bg-color);
 }
 
 .adress {
   color: var(--primary-bg-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
-.footer-contacts {
-  color: rgba(255, 255, 255, 0.6);
+.footer-contacts-info {
+  color: var(--secondary-text-color);
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.site-nav-link:hover,
+.footer-contacts-info:hover,
+.site-nav-link:focus,
+.footer-contacts-info:focus {
+  color: var(--action-color);
 }
 
 /* Portfolio buttons */
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
 
 .button:hover,
 .now {
   color: var(--primary-bg-color);
   background-color: var(--action-color);
+}
+.button {
+  cursor: pointer;
 }
