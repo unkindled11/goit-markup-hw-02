@@ -27,6 +27,7 @@ body {
 
 a {
   text-decoration: none;
+  font-style: normal;
 }
 
 /* Logo */
@@ -95,9 +96,11 @@ a {
   background-color: var(--action-color);
   font-weight: 700;
 
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.8;
   text-align: center;
+  letter-spacing: 0.06em;
 
   cursor: pointer;
 }
@@ -194,7 +197,7 @@ a {
 }
 
 .footer-contacts-info {
-  color: var(--secondary-text-color);
+  color: rgba(255, 255, 255, 0.6);
 
   font-size: 14px;
   line-height: 1.71;
@@ -211,6 +214,7 @@ a {
 /* Portfolio buttons */
 
 .button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -218,10 +222,11 @@ a {
 }
 
 .button:hover,
-.now {
+.button:focus {
   color: var(--primary-bg-color);
   background-color: var(--action-color);
 }
+
 .button {
   cursor: pointer;
 }
